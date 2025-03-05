@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/txtStr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:layout_gravity="center"
+        android:text="Введите время интервала в с.:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/timeEd"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="25sp"
+        android:layout_gravity="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/butGet1"
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:text="Получить значения"
+        android:layout_marginTop="25sp" />
+
+    <TextView
+        android:id="@+id/txtData1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:layout_gravity="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/butNext1"
+        android:layout_width="270sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:text="Следующая страница"
+        android:layout_marginTop="20sp" />
+
+</LinearLayout>
